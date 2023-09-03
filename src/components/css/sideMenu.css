@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+
+body {
+  margin: auto;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  overflow-y:auto;
+  scrollbar-base-color:gold;
+  margin-right: 20px;
+}
+
+/* Toggle Styles */
+
+
+#content, #scroll {
+  overflow-y: scroll;
+  height: auto;
+}
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 270.98px) {
+  #viewport {
+    position:fixed;
+    width: 100%;
+    right:0%;
+    left:0px;
+    right:0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+/* @media (min-width: 767.98px) {
+} */
+
+/* // Medium devices (tablets, less than 992px) */
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) { 
+
+
+  #viewport {
+    position:fixed;
+    width: auto;
+    left:300px;
+    right:0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+
+
+/* Sidebar Styles */
+
+#sidebar {
+ 
+  position: fixed;
+  left: 0px;
+  width: 200px;
+  height: 100%;
+ 
+  margin-left: 0px;
+  overflow-y: auto;
+  background: #37474F;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#sidebar header {
+  background-color: #263238;
+  font-size: 22px !important;
+  
+  text-align: center;
+}
+
+#sidebar header a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+#sidebar header a:hover {
+  color: #fff;
+}
+
+
+
+#sidebar .nav a{
+  text-decoration: none;
+  background: none;
+  border-bottom: px solid #455A64;
+  color: #CFD8DC;
+  font-size: 22px;
+  
+  padding: 16px 24px;
+}
+
+#sidebar .nav a:hover{
+  background: none;
+  color: #ECEFF1;
+}
+
+#sidebar .nav a i{
+
+  margin-top: 40px;
+}
+}
